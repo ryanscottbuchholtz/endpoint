@@ -1,0 +1,10 @@
+<div class='row'></br></br></br>
+<%= simple_form_for @contact do |f| %>
+<div class="large-6 large-offset-3 columns"><%= f.input :first_name, label: false, placeholder: "First Name" %></div>
+<div class="large-6 large-offset-3 columns"><%= f.input :last_name, label: false, placeholder: "Last Name" %></div>
+<div class="large-6 large-offset-3 columns"><%= f.input :email, label: false, placeholder: "Email" %></div>
+<div class="large-6 large-offset-3 columns"><%= f.input :company, label: false, placeholder: "Company" %></div>
+<div class="large-6 large-offset-3 columns"><%= f.submit "Submit" %></div>
+<%end%>
+
+</div>
